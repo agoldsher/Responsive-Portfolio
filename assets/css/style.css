@@ -1,0 +1,320 @@
+h1{
+    font-size: 30pt;
+    font-family: 'Montez', cursive;
+    font-weight: bolder;
+    color: #ffffff;
+}
+h2{
+    font-size: 30pt;
+    font-family: 'Montez', cursive; 
+    font-weight: bolder;
+}
+
+body{
+
+    background-image: url(../images/light-grey.png);
+
+}
+
+nav{
+    text-align: right;
+    /* margin: 0% 10%; */
+}
+
+nav a{
+    /* float:right; */
+    position: relative;
+    top:45px;
+    text-decoration: none;
+    color: #666666;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    
+}
+
+nav a:first-child{
+    border-left: 0px none;
+
+}
+
+
+
+
+.name-box{
+    float: left;
+    background-color:#4aaaa5;
+    width: 220px;
+    padding: 20px;
+    text-decoration: none;
+    
+
+
+}
+
+.header{
+    background-color: #ffffff;
+    height: 80px;
+    border-style:solid;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 30px;
+
+}
+.header-components{
+    margin: 0px auto ;
+    width: 100%;
+    max-width: 960px;
+
+    
+}
+
+#about-me-heading, #contact-me-heading, #portfolio-heading{
+    color:#4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+
+.main-section{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto 40px;
+   
+    background: #ffffff;
+    padding: 0% 2% 2%;
+    
+    
+    color: #777777;
+    border:1px solid #dddddd;
+    
+
+
+}
+
+
+.main-photo{
+    width: 170px;
+    float:left;
+    margin: 0px 20px 0px 0px;
+
+
+}
+
+.about-me-text{
+    
+    font-size: 14pt;
+    line-height: 30pt;
+    
+
+}
+
+
+.copyright-text{
+   text-align: center;
+   padding-top: 30px;
+   color:  #ffffff;
+  
+}
+footer{
+    
+    display: block;
+    background: #666666;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+}
+
+/* contact page */
+input{
+    width: 98%;
+    line-height: 14pt;
+    padding-left: 5px;
+}
+
+form input:last-child{
+    width: 60px;
+}   
+
+.message-box{
+    
+    border-color: #cccccc;
+    width: 98%;
+  
+}
+
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+
+
+
+
+.portfolio-items {
+    position: relative;
+    float:left;
+    
+    margin: 20px 0 25px;
+    overflow: auto;
+    margin-right: 40px;
+  }
+  
+ 
+  
+  .portfolio-items img {
+      width:100%;
+      
+    max-width: 250px;
+    border:3px solid #777777;
+    opacity: 0.8;
+   
+  }
+  
+  .portfolio-items h3 {
+    position: absolute;
+    bottom: 30px;
+    width:226px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .header-components{
+        margin: 0% 2% ;
+        width:100%;
+        max-width: 750px;
+        
+       
+    }
+
+    nav {
+        text-align: right;
+        margin: 0% 2%;
+    
+    }
+  
+    .main-section{
+        margin:0px auto;
+        width:100%;
+        max-width: 700px;
+    }
+    .main-photo{
+        width:40%;
+    }
+    nav a{
+        font-size: 1.2em;
+    }
+
+} 
+
+@media only screen and (max-width: 640px) {
+    .header{
+        
+        height: 150px;
+    }
+
+    .header-components{
+        margin: 0% 0%;
+    }
+    .main-photo{
+        width: 100%;
+        
+    }
+ 
+    .name-box{
+        width:100%;
+        font-size: 38pt;
+        padding-left:0px;
+        
+        text-align: center;
+       
+    }
+
+    h2{
+        font-size: 38pt;
+    }
+
+    .nav-bar {
+       background-color: #ffffff;
+       align-items: center;
+       
+   
+    }
+
+    nav{
+        text-align: center;
+    }
+    nav a{
+        top:20px;
+        text-align: center;
+        font-size: 16pt;
+    }
+    .main-section-wapper{
+        max-width: 100%;
+        
+    }
+    .main-section{
+        margin:0px auto 5%;
+        padding: 0% 5% ;
+        max-width:500px;
+        width:100%;
+    }
+
+    footer{
+        position: relative;
+    }
+
+    input[type=submit]{
+        margin-bottom: 15px;
+    }
+    .portfolio-items img{
+        width: 400px;
+        margin-left: 40px; 
+        
+
+    }
+
+    .portfolio-items h3 {
+        position: absolute;
+        bottom: 80px;
+        left:43px;
+        width:400px;
+        padding: 40px 0px;
+        
+        font-size: 24pt;
+       
+        
+      }
+}
+
+
+
+
+
+
