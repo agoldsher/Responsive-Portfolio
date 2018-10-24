@@ -235,8 +235,10 @@ input[type=submit] {
 
 @media only screen and (max-width: 640px) {
     .header{
-        
+        position:static;
         height: 150px;
+        width:100%;
+        max-width:640px;
     }
 
     .header-components{
@@ -249,6 +251,7 @@ input[type=submit] {
  
     .name-box{
         width:100%;
+        max-width: 640px;
         font-size: 38pt;
         padding-left:0px;
         
@@ -280,7 +283,7 @@ input[type=submit] {
         
     }
     .main-section{
-        margin:0px auto 5%;
+        margin:0px 2% 5%;
         padding: 0% 5% ;
         max-width:500px;
         width:100%;
@@ -288,6 +291,8 @@ input[type=submit] {
 
     footer{
         position: relative;
+        width:100%;
+        max-width:640px;
     }
 
     input[type=submit]{
