@@ -283,9 +283,9 @@ input[type=submit] {
         
     }
     .main-section{
-        margin:0px 2% 5%;
+        margin:0px auto 5%;
         padding: 0% 5% ;
-        max-width:500px;
+        max-width:450px;
         width:100%;
     }
 
