@@ -1,3 +1,5 @@
+/* *{box-sizing:border-box;} */
+
 h1{
     font-size: 30pt;
     font-family: 'Montez', cursive;
@@ -316,6 +318,7 @@ input[type=submit] {
        
         
       }
+      *{box-sizing: border-box;}
 }
 
 
