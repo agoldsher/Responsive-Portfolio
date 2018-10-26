@@ -184,9 +184,9 @@ input[type=submit] {
   
   .portfolio-items h3 {
     position: absolute;
-    bottom: 30px;
-    width:226px;
-    padding: 15px;
+    bottom: 15%;
+    
+    padding: 5% 18%;
     text-decoration: none;
     font-size: 16pt;
     font-weight: bolder;
@@ -309,12 +309,12 @@ input[type=submit] {
 
     .portfolio-items h3 {
         position: absolute;
-        bottom: 80px;
+        bottom: 15%;
         left:43px;
-        width:400px;
-        padding: 40px 0px;
+    
+        padding: 2% 12%;
         
-        font-size: 24pt;
+       
        
         
       }
